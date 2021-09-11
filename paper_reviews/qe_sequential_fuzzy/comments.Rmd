@@ -1,0 +1,33 @@
+---
+title: "review"
+author: "Jason Freels"
+date: "9/11/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Line 20: why are Fuzzy and Cognitive capitalized?
+
+Overall comments: This paper is a difficult read. As I note below, there are several instances of poorly worded explanations that required re-read several sections.
+
+I'm confused as to why the authors put so much effort into explaining the history and inner-workings of FMEA (I count three separate instances in which this is done in this paper).  Conversely, I wished that the authors spent more time explaining the background of fuzzy cognitive maps. Most readers will     
+
+Line 34: "With the increasing growth of the automotive..." This first line is very wordy consider revising
+
+Page 2:
+
+Starting on line 7: why is written about the background on FMEA's seems to be a distraction of the intent of the paper
+
+Page 3:
+
+--- Line 7: "Process Failure Mode and Effects Analysis" why are these words capitalized
+--- Line 8: "d Multi-stage Fuzzy Cognitive Map" why are these words capitalized
+
+Page 6:
+
+j = N,...,1 takes the values in the range FHG 
