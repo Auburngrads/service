@@ -1,0 +1,52 @@
+---
+title: "Untitled"
+author: "Jason Freels"
+date: "9/15/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overall comments
+
+With the exception of a few phrasing issues - some of which I highlight below - the paper is well written. With that said this paper has some significant issues that must be addressed.  The first, and most significant issue is that the authors do not clearly highlight the novel contribution made by this paper.  While I have researched complex modifications of the Weibull model such as , I have little experience with sectional models. However, from my reading about these models to review this paper it seems that   is being made by this paper. there are some significant issues with this paper some  Are the authors claiming that utilizing the Newton-Raphson method to compute maximum likelihood parameter estimates is a new contribution
+
+Please change all mentions of "maximum likelihood function" to "likelihood function"
+
+There are several instances where the author refer to failures as "samples" - this is quite distracting and should explained more clearly.
+
+## Specific comments
+
+### Page 2
+
+"Develop and implement an algorithm based on the NR method capable of assisting the numerical solution"
+
+- What does "assisting the numerical solution" mean here?
+
+### Page 4
+
+"In this paper, the estimate made by WPP will be used as the initial value in the numerical solution of the expressions resulting from the maximum likelihood function."
+
+- Are you referring to the parameter estimates here?
+
+"MLE for Type-I right censored data, with 𝑟 samples observed in relation to a total of 𝑛 samples"
+
+- This should read𝑟failures observed in relation to a total of 𝑛 samples
+
+
+"In the case of WS2P3P, in addition to 𝑟 and 𝑛, it is necessary to consider the number of samples $i_s$ observed..."
+
+- This should be "the number of failures $i_s$ observed..."
+
+### Page 6
+
+The matrix displayed in (48) is the Hessian matrix, not the Jacobian - this should be updated along with other references to this matrix in the paper. 
+
+
+### Page 7
+
+"The data was obtained from around 180 vehicles recording a total of around one million miles over just over a year of use around the world [50]."
+
+- This should read "The data were obtained from 180 vehicles operating a total of one million miles over one year of use around the world [50]."
