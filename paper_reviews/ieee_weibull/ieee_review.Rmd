@@ -11,13 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Overall comments
 
-With the exception of a few phrasing issues - some of which I highlight below - the paper is well written. With that said this paper has some significant issues that must be addressed.  The first, and most significant issue is that the authors do not clearly highlight the novel contribution made by this paper.  While I have researched complex modifications of the Weibull model such as , I have little experience with sectional models. However, from my reading about these models to review this paper it seems that   is being made by this paper. there are some significant issues with this paper some  Are the authors claiming that utilizing the Newton-Raphson method to compute maximum likelihood parameter estimates is a new contribution
+With the exception of a few phrasing issues - some of which I highlight below - the paper is well written. With that said this paper has some significant issues that must be addressed.  The first, and most significant issue is that the authors do not clearly highlight the novel contribution made by this paper.  While I have researched complex modifications of the Weibull model such as , I have little experience with sectional models. From a limited reading about sectional models to suport this review, it seems that there is a novel contribution here - but it needs to be highlighted more clearly. This issue is exacerbated by a lengthy review of the application of maximum likelihood estimation to many different types of reliability data.  Much of this review offers little to help the reader understand the purpose of the paper.  The authors should focus this introductory review more narrrowly to help the reader understand how this work adds to the current body of literature.  The second significant issue is that the authors only implement their method on a single data set.  The authors should include add another data set in their paper
+
+## Specific comments
 
 Please change all mentions of "maximum likelihood function" to "likelihood function"
 
 There are several instances where the author refer to failures as "samples" - this is quite distracting and should explained more clearly.
-
-## Specific comments
 
 ### Page 2
 
